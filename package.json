@@ -1,0 +1,21 @@
+{
+  "name": "cloud-issue-tracker",
+  "version": "1.0.0",
+  "description": "a small internal  application with three eventual functions: create an issue, view issues, and  change issue status\r this is what we did in the BUE labs\r # Cloud Issue Tracker \r Starter application used across the Cloud Computing and Cloud Security \r labs. \r ## Lab 1 - Development environment verified - Static HTML structure created - CSS interface created - Git repository prepared",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server . -p 8080" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedKhaled0010/cloud-issue-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MohamedKhaled0010/cloud-issue-tracker/issues"
+  },
+  "homepage": "https://github.com/MohamedKhaled0010/cloud-issue-tracker#readme"
+}
