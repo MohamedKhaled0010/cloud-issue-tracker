@@ -24,6 +24,18 @@ const issuesList = document.querySelector('#issues-list');
 const issueCount = document.querySelector('#issue-count'); 
 const formMessage = document.querySelector('#form-message');
 
+function toggleIssueStatus(issueId) { 
+    const issue = issues.find((item) => item.id === issueId); 
+ 
+    if (!issue) { 
+        console.error('Issue not found:', issueId); 
+        return; 
+    } 
+ 
+    issue.status = issue.status === 'Open' ? 'Resolved' : 'Open'; 
+    renderIssues(); 
+} 
+
 function renderIssues() { 
     issuesList.replaceChildren(); 
     issueCount.textContent = issues.length; 
